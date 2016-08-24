@@ -3,7 +3,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 1.0.3
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: Proxifier is a gem to force ruby to use a proxy
 Group: Development/Languages
 License:  MIT
@@ -13,6 +13,7 @@ BuildRequires: ruby(release)
 BuildRequires: rubygems-devel
 BuildRequires: ruby
 BuildArch: noarch
+Provides: rubygem(%{gem_name}) = %{version}
 
 %description
 Proxifier adds support for HTTP or SOCKS proxies and lets you force TCPSocket
@@ -76,5 +77,8 @@ popd
 %doc %{gem_instdir}/README.md
 
 %changelog
+* Wed Aug 24 2016 Rich Megginson <rmeggins@redhat.com> - 1.0.3-2
+- added Provides for rubygem(proxifier)
+ 
 * Wed Aug 17 2016 Yanis Guenane <yguenane@redhat.com> - 1.0.3-1
 - Initial package
