@@ -78,7 +78,7 @@ popd
 
 %changelog
 * Wed Aug 24 2016 Rich Megginson <rmeggins@redhat.com> - 1.0.3-2
-- added Provides for rubygem(resolve-hostname)
+- added Provides for rubygem(proxifier)
  
 * Wed Aug 17 2016 Yanis Guenane <yguenane@redhat.com> - 1.0.3-1
 - Initial package
