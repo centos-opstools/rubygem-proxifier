@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-dd763b151585630f84793c652824d600375fa306	centos-opstools/rubygem-proxifier-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+3b63ed054b4ecbe1c286d9b5afec79c352436141       	centos-opstools/rubygem-proxifier-core
+dd763b151585630f84793c652824d600375fa306        	centos-opstools/rubygem-proxifier-ptl
+global:Registered-Users		Registered Users
