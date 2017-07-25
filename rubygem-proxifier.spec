@@ -3,7 +3,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 1.0.3
-Release: 2%{?dist}
+Release: 3%{?dist}
 Summary: Proxifier is a gem to force ruby to use a proxy
 Group: Development/Languages
 License:  MIT
@@ -77,6 +77,9 @@ popd
 %doc %{gem_instdir}/README.md
 
 %changelog
+* Tue Jul 25 2017 Matthias Runge <mrunge@redhat.com> - 1.0.3-3
+- bump release to trigger rebuild
+
 * Wed Aug 24 2016 Rich Megginson <rmeggins@redhat.com> - 1.0.3-2
 - added Provides for rubygem(proxifier)
 
